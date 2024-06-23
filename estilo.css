@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #01723d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.sobre-section h2,
+.projeto-section h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto-limitado,
+.texto-limitado2 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+footer {
+    background-color: #01723d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #01723d;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box a {
+    text-decoration: none;
+    color: #000000; 
+    font-weight: bold;
+}
+
+.box:hover {
+    background-color: #01723d; 
+}
+
+.box:hover a {
+    color: #fff; 
+}
+  .texto-limitado{
+            text-align: justify;
+        }
+
+        .imagem-sobre{
+            float: left; 
+            margin-bottom: 40px; 
+            margin-top: 20px;
+            width: calc(50% - 10px); 
+            height: auto;
+            box-sizing: border-box; 
+            margin-right: 10px;
+            border: 3px solid #01723d;
+            border-radius: 10px;
+        }
+
+        .imagem-sobre:last-child{
+            margin-left: 0;
+        }
+
+.botao-voltar {
+    margin-top: 80px; 
+    text-align: center;
+     }
+
+     .botao-voltar a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #01723d;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .botao-voltar a:hover {
+        background-color: #01572d;
+    }
+
+    .imagem-centralizada {
+        display: block;
+        margin: 0% auto;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        border: 3px solid #01723d;
+        border-radius: 10px;
+    }
